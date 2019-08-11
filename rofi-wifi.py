@@ -2,17 +2,14 @@
 ################################ PARAMETERS ########################################
 ####################################################################################
 
-# Select your adaptater
-adaptapter = "wlp2s0"
-
-#Pick the format (ATTENTION : SSID is required)
+#Pick the format (IMPORTANT : SSID is required) [IN-USE / SSID / MODE / CHAN(Chanel) / RATE / SIGNAL / BARS / SECURITY]
 tableFormat = ['IN-USE', 'SSID', 'RATE', 'BARS', 'SECURITY']
 
-import os
 
 ####################################################################################
 ################################# FUNCTIONS ########################################
 ####################################################################################
+import os
 
 # Network Manager Info functions
 def getRawWifiList():
@@ -26,7 +23,7 @@ def getWifiList():
             start = str(baseList).splitlines()[0].find(legend)
             i = start + len(str(legend))
             while baseList[i] == ' ' :
-                i+=1
+                i += 1
             list+=line[start:i]
         list += '\n'
     list = list[:len(str(list))-2]
