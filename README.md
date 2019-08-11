@@ -44,4 +44,4 @@ tableFormat = ['IN-USE', 'SSID', 'RATE', 'BARS', 'SECURITY']
 
 # Other info 
 
-This script is my first "program" to be put in line with the intent of being used by other than me so all constructive criticism would be greatly apreciated
+This script is my first "program" to be put online with the intent of being used by other than me so all constructive criticism would be greatly apreciated
