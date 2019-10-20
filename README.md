@@ -34,7 +34,7 @@ manage your wifi connexion
 2) Install rofi 
 3) Install python 3.7 (should work on other python 3 version but the script has been created and tested on python 3.7)
 4) Clone the repository `git clone`
-(optional) 5) Edit the script (vim, vi, nano, atom...) and change the array table format to your liking (WARNING the field SSID is REQUIRED)
+5)(optional)  Edit the script (vim, vi, nano, atom...) and change the array table format to your liking (WARNING the field SSID is REQUIRED)
 ```
 #Pick the format (IMPORTANT : SSID is required) [IN-USE / SSID / MODE / CHAN(Chanel) / RATE / SIGNAL / BARS / SECURITY]
 tableFormat = ['IN-USE', 'SSID', 'RATE', 'BARS', 'SECURITY']
